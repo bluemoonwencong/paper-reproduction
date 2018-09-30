@@ -23,9 +23,9 @@ The compact device structure and the ability to both store and process informati
 
 And although we focus on reservoir computing, we expect that other machine learning techniques, e.g., deep learning, might also be useful for the task we address.
 
-(./img/1.png)
+![](./img/1.png)
 
-(./img/2.png)
+![](./img/2.png)
 
 **Fig.1  a.** Schematic of a spintronics oscillator, consisting of a free layer(Py) between two ferromagnetic layers. The current is injected into the oscillator, which induces magnetization precessions of the magnetization in free layer. The diameters of spintronics oscillator can be 10~500nm. As the schematic of the experimental set-up, the a.c. voltage emitted by the oscillator can be measured. **b.** the skyrmionstrip, it is dumbbell-shaped, two layers. The length of skyrmionstrip is 200nm, and the width is 60nm.
 
@@ -52,11 +52,11 @@ The readout function for handwritten digits image classification is a single-lay
 ### 3.1 nonlinear dynamics and the delay phenomenon
 The nanoscale oscillators used for this study are circular magnetic tunnel junctions, with a 15 nm thick Py free layer 300 nm in diameter, and a magnetic vortex as a ground state. We can inject a varying current to spintronics oscillator and skyrmionstrip to study the nonlinear dynamics and the delay phenomenon.
 
-(./img/3.png)
+![](./img/3.png)
 
-(./img/4.png)
+![](./img/4.png)
 
-(./img/5.png)
+![](./img/5.png)
 
 **Fig.2  a.** In spintronics oscillator, the envelope of the mx is output, it varies with current is nonlinear. When we change the current, the oscillator of mx is gradually change, so the current state of the oscillator will be affected by the state of the past period of time, it comply with the principle of reservoir calculation. **b. ** In skyrmionstrip, the position of skyrmion is output, it also varies with current is nonlinear. As for the skyrmionstrip, we have defined the position of skyrmion is the output, the current position of skyrmion is natutally will be affected by the state of the past period of time, with nonliear dynamics and the delay phenomenon, it also comply with the principle of reservoir calculation. **c. ** the record of mx in spintronics oscillator.
 
@@ -66,9 +66,9 @@ The nanoscale oscillators used for this study are circular magnetic tunnel junct
 ### 3.2 a demo task: the image classification
 We train and test the Reservoir Computing system(RC system) using MNIST dataset, which is a commonly used for image classification. The original image is 28*28, and is grayscale, we convert it to black and white picture.
 
-(./img/6.png)
+![](./img/6.png)
 
-(./img/7.png)
+![](./img/7.png)
 
 **Fig. 3** Schematic of the process in RC system. The image is first converted to a matrix whose shape is 196*4. Then we inject it to a RCsystem containing 196 skyrmionstrips. Each row is encode to a 4bit current pules and then inject to a skyrmionstrip.
 
@@ -80,7 +80,7 @@ The number of parameter is 1960, and the parameter is linear connect to output, 
 
 
 
-(./img/8.png)
+![](./img/8.png)
 
 **Fig. 4  a.** the predict answer, for current is 20uA, pule width is 10ns. **b.** The accuracy varies with current and pulse width. The best is 87.6%.
 
@@ -90,7 +90,7 @@ The number of parameter is 1960, and the parameter is linear connect to output, 
 ### 3.3 Solving a second-order nonlinear dynamic task
 As shown in the previous example, the RC system can be applied to the classification of pictures, but RC system is more suitable to handle time series related tasks. As shown in the previous experiment, the spintronics oscillator is used to process the audio signal (time series). Below we will use numerical methods to explore the ability of the spintronics oscillator to process time series. To the best of our knowledge, no one has carried this kind of numerically study on spintronics oscillator, so our numerically study the ability of spintronics oscillators to process time series may have accelerate research in vortex-like spintronics oscillator.
 
-(./img/9.png)
+![](./img/9.png)
 
 **Fig.5** Schematic of the process of time series predict task process in RC system. The RC system is composed of 10 spin nano oscillators and 10 skyrmionstrip. It have two parts. The first part, the random input is feed to the formulas, the output will be generated. As for second part, the random input is feed to the RC system, we can get server curve, then we weighted linear sum these curves.
 
@@ -101,8 +101,8 @@ In typical applications, the relationship between y(k) and u(k) is hidden, which
 
 
 
-(./img/10.png)
-(./img/11.png)
+![](./img/10.png)
+![](./img/11.png)
 **Fig.6** 
 
 
