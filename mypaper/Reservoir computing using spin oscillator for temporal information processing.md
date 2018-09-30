@@ -117,7 +117,7 @@ The size of RC system used to predict second-order nonlinearities is small compa
 
 We also note that the spintronics simulation work in may 
 
-快；耗能低；在以后设计自旋器件集成电路的智能芯片时，模拟方面的工作是有必要的。
+
 
 
 
