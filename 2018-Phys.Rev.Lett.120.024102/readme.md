@@ -79,7 +79,9 @@
 ## 数据&源码
 [https://github.com/bluove/paper-reproduction/tree/master/2018-Phys.Rev.Lett.120.024102](https://github.com/bluove/paper-reproduction/tree/master/2018-Phys.Rev.Lett.120.024102)
 
-数据，源码，欢迎 start。下载，然后
+数据太大，不便放在github，数据下载：[https://www.jianguoyun.com/p/Dfy52f4Q4uWRBxiRh30](https://www.jianguoyun.com/p/Dfy52f4Q4uWRBxiRh30)
+
+欢迎 start。下载，然后
 
 ```python
 # 关于数据，想复现的话需要安装mathematica，再运行.nb文件。
