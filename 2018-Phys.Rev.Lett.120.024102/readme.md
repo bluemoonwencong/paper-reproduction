@@ -1,7 +1,9 @@
 ## 简介
 
 这篇paper是2018.01发表在PRL，已经有两篇科普介绍了，链接在这里：
+
 [Machine Learning’s ‘Amazing’ Ability to Predict Chaos](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/)
+
 [集智俱乐部 机器学习能否破解混沌？| PRL论文详解](http://wemedia.ifeng.com/63712603/wemedia.shtml)
 
 但这两篇科普介绍，都不详细，尤其是没有公开的源码。所以还是看论文+自己动手实现的是。一篇发在物理顶刊的 AI paper，这对一个坚定的 CS 转行人士来说是非常有吸引力的，可以忽悠老板来获得珍贵的自学时间。
@@ -103,7 +105,7 @@ ipython 000.py
 有些细节和原文不一样，比如单个蓄水池尺寸我用的是2000*2000，稀疏度肯定和原文也不一样，等等。上图，中间的图是理论值，顶部是预测值，底部是误差曲线。dt=0.1，Lyapunov exponent=0.1，所以大约预测了9个 Lyapunov time。
 
 
-
+---
 实际上，单个 reservoir 预测的话，不一定要 5000 * 5000 或 2000 * 2000这么宽。在我复现的过程中，有一次只用500*500的reservoir就预测了6个 Lyapunov time，这可以和论文中 Fig.2 相比。
 
 最后，code 很烂，勉强“能跑起来”的水平，应该重构，重构，重构，，，但是已经不太想搞这篇了。
