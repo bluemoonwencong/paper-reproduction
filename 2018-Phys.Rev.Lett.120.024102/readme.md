@@ -77,7 +77,7 @@
 * 一定要早点洗白身份，洗白，赴往CS和AI的海洋！！！
 
 ## 数据&源码
-[github.com/bluove/paper-reproduce/2018-PRL](github.com/bluove/paper-reproduce/prl201801)
+[https://github.com/bluove/paper-reproduction/tree/master/2018-Phys.Rev.Lett.120.024102](https://github.com/bluove/paper-reproduction/tree/master/2018-Phys.Rev.Lett.120.024102)
 
 数据，源码，欢迎 start。下载，然后
 
