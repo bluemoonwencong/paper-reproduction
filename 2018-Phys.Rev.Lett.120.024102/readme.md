@@ -6,7 +6,7 @@
 
 [集智俱乐部 机器学习能否破解混沌？| PRL论文详解](http://wemedia.ifeng.com/63712603/wemedia.shtml)
 
-但这两篇科普介绍，都不详细，尤其是没有公开的源码。所以还是看论文+自己动手实现的是。一篇发在物理顶刊的 AI paper，这对一个坚定的 CS 转行人士来说是非常有吸引力的，可以忽悠老板来获得珍贵的自学时间。
+但这两篇科普介绍，都不详细，尤其是没有公开的源码。所以还是看论文+自己动手实现的是。一篇发在物理顶刊的 AI paper.
 
 
 简介部分，上面两篇已经写得很好了，就不赘述了。想跑一遍源码或者深入研究的同学去看 paper 原文吧[PhysRevLett.120.024102](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.024102)，这是最详细的资料。
@@ -74,7 +74,7 @@
 
 * 复现一篇 paper 实在是有些太浪费时间，关键是作者们基本都不回邮件，发paper时也几乎都不会附带源码。
 
-* 一定要早点洗白身份，洗白，赴往CS和AI的海洋！！！
+
 
 ## 数据&源码
 源码：[https://github.com/bluove/paper-reproduction/tree/master/2018-Phys.Rev.Lett.120.024102](https://github.com/bluove/paper-reproduction/tree/master/2018-Phys.Rev.Lett.120.024102)
