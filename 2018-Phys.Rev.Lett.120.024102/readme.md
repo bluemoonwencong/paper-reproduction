@@ -1,3 +1,6 @@
+
+note: for english speaker, google translate is very good.
+
 ## 简介
 
 这篇paper是2018.01发表在PRL，已经有两篇科普介绍了，链接在这里：
